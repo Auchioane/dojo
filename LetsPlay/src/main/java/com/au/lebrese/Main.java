@@ -6,7 +6,8 @@ import java.util.*;
 public class Main {
 
     public static void main() {
-        // write your code here
+        ChessBoard board = new ChessBoard();
+        board.start();
     }
 
     public static int penny(int n) {
@@ -20,5 +21,10 @@ public class Main {
             }
 
         return totalAmount;
+    }
+
+    public static void eightQueens() {
+        ChessBoard board = new ChessBoard();
+        board.start();
     }
 }

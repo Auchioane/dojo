@@ -34,4 +34,14 @@ class MainTest {
     }
 
 
+    @Test
+    void shouldRunEightQueens() {
+        //Given
+
+        //When
+        eightQueens();
+
+        //Then
+
+    }
 }
